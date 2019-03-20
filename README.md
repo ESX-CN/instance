@@ -1,37 +1,18 @@
 # instance
-
-## Download & Installation
-
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
-```
-fvm install --save --folder=esx esx-org/instance
-```
-
-### Using Git
+默认需要使用魔改版框架 [es_extended](https://github.com/ESX-CN/es_extended)，如果使用官方版或取消语言自适应，请注释 `__resource.lua` 文件内 `'@es_extended/i18n.lua',`这段，不然会发生不可描述的事情。
+## 下载 & 安装
+### 使用Git
 ```
 cd resources
-git clone https://github.com/ESX-Org/instance [esx]/instance
+git clone https://github.com/ESX-CN/instance [esx]/instance
 ```
-
-### Manually
-- Download https://github.com/ESX-Org/instance/archive/master.zip
-- Put it in the `[esx]` directory
-
-## Installation
-- Add this to your `server.cfg`:
-
+### 手动
+- 下载 https://github.com/ESX-CN/instance/archive/master.zip
+- 解压至 `[esx]` 目录
+## 安装
+- 添加如下至你的 `server.cfg` 文件:
 ```
 start instance
 ```
-
-# Legal
-### License
-instance - enter buildings!
-
-Copyright (C) 2015-2018 Jérémie N'gadi
-
-This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
-
-This program Is distributed In the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty Of MERCHANTABILITY Or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License For more details.
-
-You should have received a copy Of the GNU General Public License along with this program. If Not, see http://www.gnu.org/licenses/.
+## 更新记录
+- [v1.1.1] [2019-03-20] 魔改自适应版，这个还是很简单的。（PS:在线寻翻译大佬，主要是繁体的翻译，机翻暂不需要）
